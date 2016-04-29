@@ -1,0 +1,8 @@
+@import "vendor/bourbon/_bourbon.scss";
+
+$test: blue;
+
+P {
+	font-size: golden-ratio(14px,  1);
+	color: $test;
+}
